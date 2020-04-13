@@ -1,5 +1,6 @@
 
 body{background-color: rgba(66, 0, 102, 1)}
-nav{height: 30px;}
+nav{height: 50px;margin-bottom: 50px}
+#logo{height: 50px;width: 100px;}
 #d1{height: 1000px;width: 62%;display: inline-block;background-color: blue;margin: 5px}
 #d2{height: 1000px;width: 35%;display: inline-block;background-color: green;margin: 5px}
