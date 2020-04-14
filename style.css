@@ -1,6 +1,15 @@
 
 body{background-color: rgba(66, 0, 102, 1)}
 nav{height: 50px;margin-bottom: 50px}
-#logo{height: 50px;width: 100px;}
+nav a h2{color: white;}
+#logo{height: 50px;width: 100px;im}
+#container{height: 1005px;display: flex;}
 #d1{height: 1000px;width: 62%;display: inline-block;background-color: blue;margin: 5px}
-#d2{height: 1000px;width: 35%;display: inline-block;background-color: green;margin: 5px}
+#slider{height:40%;}
+#pic1{width: 60%;display: block;margin: auto;z-index: 1;}
+#pic2{width: 60%;display: block;z-index: 2;margin-left:20px;}
+#latest{height: 30% ;background-color: yellow;display: flex;flex-wrap: wrap; align-content: space-between;}
+#latest div{height: 45%;width: 45%;background-color: white;margin: 10px;}
+#d2{height: 1000px;width: 35%;display: inline-block;margin: 5px; }
+#d2 div{display: flex; height: 100%;width: 100% ;flex-direction: column;}
+#d2 div div{ background-color: white;margin: 10px;height: 10%;width: 95%; }
