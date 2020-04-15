@@ -3,7 +3,7 @@ body{background-color: #0c1027}
 h2{color: white;}
 h1{color: white;}
 nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
-#logo{height: 50px;width: 100px; margin: 10px}
+#logo{height: 50px;width: 100px; margin: 10px;background-color: transparent;}
 #container{height: 2000px;display: flex;}
 #d1{height: 1900px;width: 62%;display: inline-block;margin:1%}
 #slider{height:20%;}
@@ -138,4 +138,71 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
     opacity: 1;
     cursor: pointer;
     transition: all 0.2s linear;
+}
+.category{
+    width: 100%;
+    height: 150px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.category::-webkit-scrollbar{
+    width: 2px;
+    height: 2px;
+    background-color: white;
+}
+
+.category::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+.category_image{
+    height: 150px;
+    flex-grow: 1;
+    margin-right: 3%;
+    position: relative;
+    overflow: hidden;
+}
+
+.category_image:last-child{
+    margin-right: 0;
+}
+
+.category_image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+    transition: all 0.2s linear;
+}
+
+.category .category_image span{
+    opacity: 1;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.category_image:hover img{
+    width: 110%;
+    height: 200px;
+    top: -20px;
+    left: -20px;
+    opacity: 0.3;
+}
+
+.category_image:hover span{
+    font-size: 1.6rem;
 }

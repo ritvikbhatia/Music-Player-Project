@@ -35,11 +35,13 @@ body{
     height: 80%;
     width: fit-content;
     padding: 5px;
+    background-color: transparent;
 }
 
 .logoImage img{
     width: 120px;
     height: 80px;
+    background-color: transparent;
 }
 
 .logoName{
