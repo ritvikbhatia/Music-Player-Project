@@ -26,3 +26,116 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #music{position: absolute;left: 50px;}
 .head1{color: white;font-size: 20px;}
 .tcontent{color: grey;font-size: 15px;}
+.stations_list{
+    height: 150px;
+    background-color: #101642;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.stations_list .station_logo{
+    height: 130px;
+    width: 120px;
+    margin-right: 30px;
+    background-color: #ff4f0a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.stations_list .station_logo::before{
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: -10px;
+    width: 10px;
+    height: 110px;
+    background-color: #f0bc10;
+}
+.stations_list .station_logo::after{
+    position: absolute;
+    content: '';
+    top: 5px;
+    right: -10px;
+    width: 10px;
+    height: 110px;
+    background-color: #f0bc10;
+}
+.stations_list .station{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.stations_list .station img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.stations_list .station span{
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.2s linear;
+}
+.stations_list .station:hover img{
+    opacity: 0.2;
+}
+#imagebox .artist_image .play_btn{
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+#imagebox .artist_image:hover img{
+    opacity: 0.5;
+}
+
+#imagebox .artist_image:hover .play_btn{
+    opacity: 1;
+}
+#imagebox .artist_image{
+	width: 90%;height: 90%;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+#imagebox .artist_image img{
+    width: inherit;
+    height: inherit;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
