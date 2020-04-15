@@ -1,5 +1,5 @@
 
-body{background-color: rgba(66, 0, 102, 1)}
+body{background-color: #0c1027}
 h2{color: white;}
 h1{color: white;}
 nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
@@ -22,5 +22,7 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #imgbox{height: 100% ;width: 30%}
 #d2 div div div img{width: 90%;height: 90%}
 #d2 div div div i{font-size: 30px;margin-top: 33px;color: red;}
+#musicplayer{height: 80px;width: 100vw;position: fixed;background-color: black;z-index: 200 ;bottom: 0;}
+#music{position: absolute;left: 50px;}
 .head1{color: white;font-size: 20px;}
 .tcontent{color: grey;font-size: 15px;}
