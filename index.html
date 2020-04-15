@@ -3,16 +3,44 @@
 <head>
 	<script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel='stylesheet' type='text/css' href='nav.css'>
 	<title>Music Player</title>
 </head>
 <body>
-	<nav id="navbar" style="display: flex;">
-		<img id="logo" src="logo.png" style="display: inline-block;">
-		<a href="#"> <h2>Favoratories</h2></a>>
-		<input type="text" name="search" placeholder="Search ..">
-		<a href="" ><i class="far fa-heart"></i></a>
-		<img id="logo" src="pic1.png" style="display: inline-block;border-radius: 50% ;align-self: flex-end;">
-	</nav>
+	<div class="flex-r navbar">
+        <div class="flex-r navbarLeftSide">
+            <div class="flex-r logo">
+                <div class="flex-c logoImage">
+                    <img src="logo.png"/>
+                </div>
+                <!-- <div class="flex-c logoName">
+                    <span>VK</span>                             
+                    <span>Studio</span>
+                </div> -->
+            </div>
+
+            <div class="flex-c fav">
+                <span>Favourites</span>
+            </div>
+        </div>
+        <div class="flex-r navbarRightSide">
+            <div class="flex-c searchInput">
+                <span class="search-mic-icon">
+                    <input type="text" placeholder="Search..." />
+                </span>
+            </div>
+            <div class="flex-c notification">
+                <div class="notification-bell">
+                    <span><i class="fa fa-bell"></i></span>
+                </div>
+            </div>
+            <div class="flex-c profile">
+                <div class="profileImage">
+                    <img src="pic1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
 	<div id="container">
 	<div id="d1" >
 		<div id="slider">
