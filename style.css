@@ -1,8 +1,10 @@
 
 body{background-color: rgba(66, 0, 102, 1)}
+h2{color: white;}
+h1{color: white;}
 nav{height: 50px;margin-bottom: 50px}
 nav a h2{color: white;}
-#logo{height: 50px;width: 100px;im}
+#logo{height: 50px;width: 100px;}
 #container{height: 2000px;display: flex;}
 #d1{height: 1900px;width: 62%;display: inline-block;margin: 5px}
 #slider{height:20%;}
@@ -18,4 +20,4 @@ nav a h2{color: white;}
 #d2 div div div{ margin: 10px;height: 90%;width: 30%;text-align: center;}
 #imgbox{height: 100% ;width: 30%}
 #d2 div div div img{width: 90%;height: 90%}
-#d2 div div div i{font-size: 30px;}
+#d2 div div div i{font-size: 30px;margin-top: 33px;color: red;}
