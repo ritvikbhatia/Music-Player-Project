@@ -6,9 +6,10 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #logo{height: 50px;width: 100px; margin: 10px;background-color: transparent;}
 #container{height: 2000px;display: flex;}
 #d1{height: 1900px;width: 62%;display: inline-block;margin:1%}
-#slider{height:20%;}
-#pic1{width: 60%;display: block;margin: auto;z-index: 1;}
-#pic2{width: 60%;display: block;z-index: 2;margin-left:20px;}
+#slider{height:20%; display: flex;}
+#m1{height: 77%; width: 57%;display:block;margin: auto;background-image: url(pic1.png);background-size: cover;z-index:4;background-position: center;}
+#m2{height: 66%; width: 47%;display:block;margin-left:-20%;position: relative;left: 20px;top: 17%;background-image: url(pic2.jpg);background-size: cover;}
+#m3{height: 66%; width: 47%;display:block;margin-right:-20%;position: relative;left: 0px;background-image: url(pic2.jpg);background-size: cover;top: 17%;}
 #latest{height: 17% ;display: flex;flex-wrap: wrap; align-content: space-between;}
 #latest div{height: 42%;width: 46%;margin: 2%; display: flex;}
 #latest div div{height: 100% width:30%;}
