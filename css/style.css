@@ -36,6 +36,7 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #d2 div div div img:hover{opacity: 0.2;}
 #d2 div div div i{font-size: 30px;margin-top: 33px;color: red;}
 #d2 span a{margin-bottom: 20px;color: white;text-decoration: none;text-align:right;}
+#d2 span a i{position: relative;right: 40px;}
 #d2 span a span {display: none;height: 25px;width: 25%;position: relative;right: -65%;border: 2px solid black;}
 #d2 span a{display: flex;flex-direction: column; height: 30px}
 #d2 span a:hover span{display:block; background-color: white;color: black}
