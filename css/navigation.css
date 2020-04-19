@@ -1,18 +1,11 @@
-.flex-c{
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-r{
-    display: flex;
-    flex-direction: row;
-}
-
 body{
     margin: 0;
     padding: 0;
     background-color: #0c1027;
 }
+
+/********************************************************************************************************************/
+/*Navigation Bar*/
 
 .navbar{
     width: 100%;
@@ -183,4 +176,13 @@ body{
     .navbar .navbarRightSide{
         justify-content: flex-end;
     }
+}
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-r{
+    display: flex;
+    flex-direction: row;
 }
