@@ -28,6 +28,8 @@ background-size: cover;text-align: center;}
 #d2 div div div{ margin: 10px;height: 90%;width: 30%;}
 #imgbox{height: 100% ;width: 30%}
 #d2 div div div img{width: 90%;height: 90%}
+#ind:hover{border: solid 2px red;}
+#d2 div div div img:hover{opacity: 0.2;}
 #d2 div div div i{font-size: 30px;margin-top: 33px;color: red;}
 #musicplayer{height: 80px;width: 100vw;position: fixed;background-color: black;z-index: 200 ;bottom: 0;}
 #music{position: absolute;left: 50px;}
