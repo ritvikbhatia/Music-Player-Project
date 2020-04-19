@@ -9,7 +9,7 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #slider{height:20%; display: flex;}
 #m1{height: 77%; width: 57%;display:block;margin: auto;background-image: url(pic1.png);background-size: cover;z-index:4;background-position: center;}
 #m2{height: 66%; width: 47%;display:block;margin-left:-20%;position: relative;left: 20px;top: 17%;background-image: url(pic2.jpg);background-size: cover;}
-#m3{height: 66%; width: 47%;display:block;margin-right:-20%;position: relative;left: 0px;background-image: url(pic2.jpg);background-size: cover;top: 17%;}
+#m3{height: 66%; width: 47%;display:block;margin-right:-20%;position: relative;left: 0px;background-image: url(pic3.jpg);background-size: cover;top: 17%;}
 #latest{height: 17% ;display: flex;flex-wrap: wrap; align-content: space-between;}
 #latest div{height: 42%;width: 46%;margin: 2%; display: flex;}
 #latest div div{height: 100% width:30%;}
@@ -214,5 +214,3 @@ background-size: cover;text-align: center;}
 .category_image:hover span{
     font-size: 1.6rem;
 }
-
-/*target page*/
