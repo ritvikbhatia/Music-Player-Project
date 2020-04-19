@@ -9,6 +9,16 @@
 	visibility: hidden;
 	display: none;
 	}
+	#head1{
+		visibility: hidden;
+	display: none;
+	}
+	#head2
+	{
+		visibility: hidden;
+		display: none;
+
+	}
 }
 @media screen and (max-width: 1050px){
 	

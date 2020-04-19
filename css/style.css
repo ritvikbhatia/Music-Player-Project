@@ -280,3 +280,28 @@ background-size: cover;text-align: center;}
     color: gray;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 807px){
+    #head1{
+        visibility: hidden;
+    display: none;
+    }
+    #head2
+    {
+        visibility: hidden;
+        display: none;
+
+    }
+    #m2{
+        visibility: hidden;
+        display: none;
+    }
+    #m3{
+        visibility: hidden;
+        display: none;
+    }
+    #artists{
+        visibility: hidden;
+        display: none;
+    }
+}
+
