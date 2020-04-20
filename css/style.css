@@ -324,6 +324,12 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
         display: none;
 
     }
+     #mimg
+    {
+        visibility: hidden;
+        display: none;
+
+    }
     #m2{
         visibility: hidden;
         display: none;
