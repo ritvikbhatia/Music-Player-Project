@@ -12,8 +12,11 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 /*slider*/
 #slider{height:20%; display: flex;}
 #m1{height: 77%; width: 57%;display:block;margin: auto;background-image: url(../images/pic1.png);background-size: cover;z-index:4;background-position: center;}
+#m1:hover{z-index: 500;border: groove; border-color: white;border-width: 5px;border-radius: 10%;}
 #m2{height: 66%; width: 47%;display:block;margin-left:-20%;position: relative;left: 20px;top: 17%;background-image: url(../images/pic2.jpg);background-size: cover;}
+#m2:hover{z-index: 500;border: groove; border-color: white;border-width: 5px;border-radius: 10%;}
 #m3{height: 66%; width: 47%;display:block;margin-right:-20%;position: relative;left: 0px;background-image: url(../images/pic3.jpg);background-size: cover;top: 17%;}
+#m3:hover{z-index: 500;border: groove; border-color: white;border-width: 5px;border-radius: 10%;}
 /*latest release*/
 #latest{height: 17% ;display: flex;flex-wrap: wrap; align-content: space-between;}
 #latest div{height: 45%;width: 46%;margin: 2%; display: flex;}
@@ -45,6 +48,7 @@ nav{height: 50px;width: 95vw; margin-bottom: 50px;justify-content: center;}
 #music{position: absolute;left: 50px;}
 .head1{color: white;font-size: 20px;}
 .tcontent{color: grey;font-size: 15px;}
+.asidesong:hover{border: solid;border-color: red;border-width: 2px;}
 
 /*******************************************************************************************************************/
 /*Stations*/

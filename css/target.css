@@ -131,6 +131,9 @@
 	height: 35px;
 	background-image: linear-gradient(to right, #3E30B7, #C45AE2);
 }
+.play-btn:hover{
+	opacity: 0.2;
+}
 
 .follow-btn{
 	position: absolute;
@@ -191,6 +194,9 @@
 	background-size: cover;
 	box-shadow: 0px 3px 5px 1px #5C969A;
 	display: inline-block;
+}
+.sim-img:hover{
+	opacity: 0.2;
 }
 .similar-song-desc{
 	position: absolute;
@@ -264,6 +270,11 @@
 	display: flex;
 	background-color: #1B1F36;
 }
+.individual-list:hover{
+	border: solid ;
+	border-color: red;
+	border-width: 2px;
+}
 
 .sno{
 	font-size: 0.8rem;
@@ -290,6 +301,9 @@
 	width: 40px;
 	height: 85%;
 	align-self: center;
+}
+.ind-song-img:hover{
+	opacity: 0.2;
 }
 .fade{
 	width: auto;
@@ -334,7 +348,7 @@
 	box-shadow: 0px 0.5px 10px 2px #12244B;
 }
 .ind-img-5{
-	background-image: url(../images/pic2.jpg);
+	background-image: url(../images/pic3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-shadow: 0px 0.5px 10px 2px #4C7281;
@@ -442,6 +456,9 @@
 	margin-left: 2.5%;
 	width: 63px;
 	height: 100%;
+}
+.rec-song-img:hover{
+	opacity: 0.2;
 }
 .rec-like-ico{
 	height: 100%;
